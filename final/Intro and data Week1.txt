@@ -1,7 +1,11 @@
 Exploring restaurants in Mumbai - India
 
 Introduction
-The purpose of this project is to determine restaurants in Mumbai, India based on rating and average price. Restaurants will be identified in Mumbai, India using Foursquare API and Zomato API, to help visitors select the restaurants that suit them the best. People visiting a new city, start looking for restaurants during their stay. They primarily look for restaurant based on the rating and average price among all other restaurants near it such that the it fits their bill. Therefore, restaurants will be identified that are fit for various individuals based on the information collected from the two APIs and Data Science methodology.
+The purpose of this project is to determine restaurants in Mumbai, India based on rating and average price.
+Restaurants will be identified in Mumbai, India using Foursquare API and Zomato API, to help visitors select the restaurants that suit them the best.
+People visiting a new city, start looking for restaurants during their stay.
+They primarily look for restaurant based on the rating and average price among all other restaurants near it such that the it fits their bill.
+Therefore, restaurants will be identified that are fit for various individuals based on the information collected from the two APIs and Data Science methodology.
 
 Data collection
 Data will be fetched from following two APIs:
