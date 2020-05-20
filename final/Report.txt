@@ -1,0 +1,37 @@
+Exploring restaurants in Mumbai - India
+
+Introduction
+
+The purpose of this project is to determine restaurants in Mumbai, India based on rating and average price.
+Restaurants will be identified in Mumbai, India using Foursquare API and Zomato API, to help visitors select the restaurants that suit them the best.
+People visiting a new city, start looking for restaurants during their stay.
+They primarily look for restaurant based on the rating and average price among all other restaurants near it such that the it fits their bill.
+Therefore, restaurants will be identified that are fit for various individuals based on the information collected from the two APIs and Data Science methodology.
+
+Data collection
+
+Data will be fetched from following two APIs:
+Foursquare API: to fetch restaurants in Mumbai within 5 KMs radius.
+Zomato API: provides complete information of restaurant like address, user ratings, price for two people, price range and lot more.
+
+Methodology
+
+1. Extracted data from Foursquare and Zomato API of Mumbai within 5 KM radius and combined meticulously.
+2. Following analysis were from the above dataset using different graphs and maps:
+   • Count of venues of each category
+   • Count of venues with given rating
+   • Count of venues with given average price
+3. Cluster all these venues based on essential features from dataset into two groups and identify association amongst them.
+
+Results
+
+Cluster-0: 										                  
+1. Infrequently spread and has very limited restaurants. 					        
+2. Has mean price range of 4.00 and rating spread around 4.23
+
+Cluster-1:										                    
+1. Scattered across the city and includes the majority restaurants				       
+2. Has mean price range of 2.11 and rating spread around 3.86
+
+Conclusion
+It can be concluded that Cluster-0 region is expensive and has a high rating and Cluster-1 region is in affordable price range and has mediocre rating.
